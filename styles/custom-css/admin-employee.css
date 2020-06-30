@@ -1,0 +1,85 @@
+/************************************************************************************
+   Please Do Not Touch My Codes Without Permmision! 
+   Dont SPoil My Work Please
+            ************ Author ***********
+                github : augustBemsen
+                slack : august
+                email : danireptor7@gmail.com
+            ************ CodeBoy **********
+
+************************************************************************************/
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ================================= 
+  Page Components
+==================================== */
+
+
+.table-form-container {
+    margin: 1rem 0;
+}
+.form {
+    background-color: white;
+}
+
+.search-icon {
+    color: black;
+    font-size: medium;
+}
+
+.icon {
+    color: black;
+}
+
+.hired-btn {
+    width: 7rem;
+    background-color: #042241;
+    color: white;
+    border-radius: 0.3rem;
+    padding: 0.3rem 0;
+}
+
+.available-btn {
+    width: 7rem;
+    background-color: #33BEFF;
+    color: white;
+    border-color: #33BEFF;
+    border-radius: 0.3rem;
+    padding: 0.3rem 0;
+}
+
+.unavailable-btn {
+    width: 7rem;
+    background-color: #A7A7A7;
+    color: white;
+    border-color: #A7A7A7;
+    border-radius: 0.3rem;
+    padding: 0.3rem 0;
+}
+
+
+
+/* ================================= 
+  Mobile Section
+==================================== */
+
+/* Small devices (landscape phones)  */
+@media (max-width: 576px) { 
+    
+ }
+
+/* Medium devices */
+
+@media (max-width: 768px) { 
+    .table-responsive {
+        overflow-x: hidden;
+    }
+ }
+
