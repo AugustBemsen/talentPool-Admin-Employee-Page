@@ -77,7 +77,10 @@ body {
         font-size: .8rem;
     }
     .sub-text {
-        font-size: .7rem;
+        font-size: .65rem;
+    }
+    .name-text {
+        font-size: .8.5rem;
     }
  }
 
