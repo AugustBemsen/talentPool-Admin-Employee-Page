@@ -1,12 +1,15 @@
 /************************************************************************************
    Please Do Not Touch My Codes Without Permmision! 
-   Dont SPoil My Work Please
+        Dont Spoil My Work Please
             ************ Author ***********
+
                 github : augustBemsen
                 slack : august
                 email : danireptor7@gmail.com
+            
             ************ CodeBoy **********
-
+       You can borrow, copy and paste is not a crime! 
+   But do not ulter! Read access only! I am warning you
 ************************************************************************************/
 
 *{
@@ -45,7 +48,9 @@ body {
     border-radius: 0.3rem;
     padding: 0.3rem 0;
 }
-
+.hired-btn:hover {
+    color: #A7A7A7;
+}
 .available-btn {
     width: 7rem;
     background-color: #33BEFF;
@@ -82,13 +87,43 @@ body {
     .name-text {
         font-size: .8.5rem;
     }
+    .hide-date {
+        display: none;
+    }
+    .table-responsive {
+        overflow-x: hidden;
+    }
+ }
+
+ @media (max-width: 300px) {
+    .btn {
+        width: 3rem;
+        font-size: .6rem;
+    }
+    .sub-text {
+        font-size: .5rem;
+    }
+    .name-text {
+        font-size: .6.5rem;
+    }
+    .employee-hero {
+        padding: 0 !important;
+        margin: 0 !important;
+        width: 90px;
+    }
+    .employee-span {
+        width: 40px;
+        padding-top: .5rem;
+        font-size: .6rem;
+    }
+    td {
+        padding-right: .8rem !important;
+    }
  }
 
 /* Medium devices */
 
 @media (max-width: 768px) { 
-    .table-responsive {
-        overflow-x: hidden;
-    }
+
  }
 
