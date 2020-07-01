@@ -25,9 +25,9 @@ body {
 ==================================== */
 
 
-.table-form-container {
+/* .table-form-container {
     margin: 1rem 0;
-}
+} */
 .form {
     background-color: white;
 }
@@ -119,11 +119,25 @@ body {
     td {
         padding-right: .8rem !important;
     }
+       
  }
 
 /* Medium devices */
 
-@media (max-width: 768px) { 
-
+@media (max-width: 280px) { 
+    th, tr {
+        white-space: normal !important;
+    }
+    .sub-text {
+        font-size: .5rem;
+    }
+    .name-text {
+        font-size: .6.5rem;
+    }
+    .employee-span {
+        width: 60%;
+        padding-top: .5rem;
+        font-size: .6rem;
+    }
  }
 
