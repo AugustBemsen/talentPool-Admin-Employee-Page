@@ -12,7 +12,7 @@
    But do not ulter! Read access only! I am warning you
 ************************************************************************************/
 
-*{
+* {
     box-sizing: border-box;
 }
 
@@ -20,17 +20,19 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-/* ================================= 
+/*================================= 
   Page Components
-==================================== */
+====================================*/
 
 .form {
     background-color: white;
 }
+
 .sub-text {
     padding: 0 !important;
     margin-bottom: 0 !important;
 }
+
 .search-icon {
     color: black;
     font-size: medium;
@@ -47,9 +49,11 @@ body {
     border-radius: 0.3rem;
     padding: 0.3rem 0;
 }
+
 .hired-btn:hover {
     color: #A7A7A7;
 }
+
 .available-btn {
     width: 7rem;
     background-color: #33BEFF;
@@ -75,76 +79,116 @@ body {
 ==================================== */
 
 /* Small devices (landscape phones)  */
-@media (max-width: 576px) { 
+@media (max-width: 576px) {
     .btn {
         width: 5.2rem;
         font-size: .8rem;
     }
+
     .sub-text {
         font-size: .65rem;
     }
+
     .name-text {
         font-size: .8.5rem;
     }
+
     .hide-date {
         display: none;
     }
-    /* .table-responsive {
-        overflow-x: hidden;
-    } */
- }
 
- @media (max-width: 315px) {
+    .table-responsive {
+        overflow-x: hidden;
+    }
+}
+
+@media (max-width: 315px) {
     .btn {
         width: 4.6rem;
         font-size: .6rem;
     }
- }
+}
 
- @media (max-width: 300px) {
+@media (max-width: 300px) {
     .btn {
         width: 4rem;
         font-size: .6rem;
     }
+
     .sub-text {
         font-size: .5rem;
     }
+
     .name-text {
         font-size: .6.5rem;
     }
+
     .employee-hero {
         padding: 0 !important;
         margin: 0 !important;
-        width: 90px;
+        width: 70px !important;
     }
+
     .employee-span {
         width: 40px;
         padding-top: .5rem;
         font-size: .6rem;
     }
+
     td {
-        padding-right: .8rem !important;
+        padding-right: .7rem !important;
     }
-       
- }
+
+}
 
 /* Medium devices */
 
-@media (max-width: 280px) { 
-    th, tr {
+@media (max-width: 280px) {
+
+    th,
+    tr {
         white-space: normal !important;
     }
+
     .sub-text {
         padding: 0 !important;
         font-size: .5rem;
     }
+
     .name-text {
         font-size: .6.5rem;
     }
+
     .employee-span {
         width: 60%;
         padding-top: .5rem;
         font-size: .6rem;
     }
- }
+}
 
+@media (max-width: 390px) {
+    button.btn.l-padding.r-padding {
+        width: 25px;
+        padding: 6px 0 !important;
+    }
+
+}
+
+@media (max-width: 360px) {
+    button.btn.l-padding.r-padding {
+        width: 20px;
+    }
+
+    button.btn.l-padding.r-padding {
+        padding-right: 0 !important;
+    }
+    .align-middle {
+        padding-left: 0 !important;
+    }
+}
+
+@media (max-width: 352px){
+    .employee-span {
+        padding-left: .4rem !important;
+    }
+}
