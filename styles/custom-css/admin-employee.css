@@ -89,9 +89,9 @@ body {
     .hide-date {
         display: none;
     }
-    .table-responsive {
+    /* .table-responsive {
         overflow-x: hidden;
-    }
+    } */
  }
 
  @media (max-width: 315px) {
