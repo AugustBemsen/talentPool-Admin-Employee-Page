@@ -24,14 +24,13 @@ body {
   Page Components
 ==================================== */
 
-
-/* .table-form-container {
-    margin: 1rem 0;
-} */
 .form {
     background-color: white;
 }
-
+.sub-text {
+    padding: 0 !important;
+    margin-bottom: 0 !important;
+}
 .search-icon {
     color: black;
     font-size: medium;
@@ -136,6 +135,7 @@ body {
         white-space: normal !important;
     }
     .sub-text {
+        padding: 0 !important;
         font-size: .5rem;
     }
     .name-text {
@@ -147,3 +147,4 @@ body {
         font-size: .6rem;
     }
  }
+
