@@ -72,6 +72,9 @@ body {
     padding: 0.3rem 0;
 }
 
+.main-content {
+    padding: 0.24rem !important;
+}
 
 
 /* ================================= 
@@ -116,11 +119,11 @@ body {
     }
 
     .sub-text {
-        font-size: .5rem;
+        font-size: .6rem;
     }
 
     .name-text {
-        font-size: .6.5rem;
+        font-size: .7.5rem;
     }
 
     .employee-hero {
@@ -132,7 +135,7 @@ body {
     .employee-span {
         width: 40px;
         padding-top: .5rem;
-        font-size: .6rem;
+        font-size: .7rem;
     }
 
     td {
@@ -143,7 +146,7 @@ body {
 
 /* Medium devices */
 
-@media (max-width: 280px) {
+@media (max-width: 297px) {
 
     th,
     tr {
@@ -152,17 +155,42 @@ body {
 
     .sub-text {
         padding: 0 !important;
-        font-size: .5rem;
+        font-size: .7rem;
     }
 
     .name-text {
-        font-size: .6.5rem;
+        font-size: .9.5rem;
     }
 
     .employee-span {
         width: 60%;
         padding-top: .5rem;
-        font-size: .6rem;
+        font-size: .8rem;
+    }
+
+    .hired-btn {
+        width: 6rem;
+        background-color: #042241;
+        color: white;
+        border-radius: 0.3rem;
+        padding: 0.3rem 0;
+    }
+    .available-btn {
+        width: 6rem;
+        background-color: #33BEFF;
+        color: white;
+        border-color: #33BEFF;
+        border-radius: 0.3rem;
+        padding: 0.3rem 0;
+    }
+    
+    .unavailable-btn {
+        width: 6rem;
+        background-color: #A7A7A7;
+        color: white;
+        border-color: #A7A7A7;
+        border-radius: 0.3rem;
+        padding: 0.3rem 0;
     }
 }
 
@@ -183,7 +211,7 @@ body {
         padding-right: 0 !important;
     }
     .align-middle {
-        padding-left: 0 !important;
+        padding-left: 0.2rem !important;
     }
 }
 
